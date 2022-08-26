@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/caviar-dreams');
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+.contain {
+    position: relative;
+
+    /* height: 100vh; */
+}
+
+.nav-b {
+    position: sticky;
+    top: 0;
+    padding: 28px 20px;
+}
+
+.navbar {
+    z-index: 500;
+}
+
+.nav-cust {
+    padding: 28px 22px;
+    font-size: 16px;
+}
+
+.nav-cust a {
+    color: white;
+}
+
+.nav-cust:active {
+    color: #c9ab81 !important;
+}
+
+.cust-btn {
+    padding: 18px 38px;
+    background-color: #c9ab81;
+    color: white;
+    font-family: 'Caviar Dreams', arial;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.cust-btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #c9ab81;
+    transition: 0.7s;
+
+}
+
+.slider {
+    background-image: url(../images/bg-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.cal-ico {
+    padding: 0 7px;
+}
+
+.img-data {
+    width: 500px;
+    color: white;
+}
+
+.cust-font {
+    font-family: 'Miniver', 'cursive';
+    font-size: 18px;
+}
+
+.cust-font-h {
+    font-family: 'Caviar Dreams', arial;
+    font-size: 72px;
+}
+
+.cust-btna {
+    font-family: 'Caviar Dreams', arial;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.contain-2 {
+    background-color: #090d0e;
+}
+
+.cont-2 {
+    background-color: #0e1415;
+    padding: 40px;
+}
+
+.mark {
+    position: relative;
+    bottom: 55px;
+    background: none;
+}
+
+.svg {
+    height: 60px;
+    fill: #c9ab81;
+}
+
+.cont-2h {
+    font-family: 'Caviar Dreams';
+    font-size: 18px;
+    color: #c9ab81;
+    width: 270px;
+    text-transform: uppercase;
+}
+
+.cont-2s {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+
+.img-div {
+    width: 270px;
+    height: 280px;
+}
+
+.img-gal {
+    display: flex;
+}
+
+.gal-1 {
+    position: relative;
+    bottom: 20px;
+}
+
+.img-sec2 {
+    padding: 100px 0px 0px 40px;
+}
+
+.div-abt {
+    font-family: 'Miniver', 'cursive';
+    color: #c9ab81;
+}
+
+.div-spicy {
+    font-family: 'Caviar Dreams';
+    color: white;
+    font-size: 60px;
+
+}
+
+.div-para1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.cont4 {
+    background-color: #0e1415;
+}
+
+.dishes {
+    display: flex;
+    align-items: center;
+}
+
+.noodles {
+    color: white;
+}
+
+.nd-10 {
+    font-size: 21px;
+    background-color: #131a1c;
+    padding: 10px 13px;
+    border-radius: 50%;
+    color: #c9ab81;
+}
+
+.dishes {
+    border-bottom: 2px dashed grey;
+    padding-bottom: 20px;
+    width: 119%;
+}
+
+.menu-detail {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    width: 118%;
+    padding: 0 0 17px 0;
+}
+
+.beef {
+    font-family: 'Caviar Dreams', arial;
+    color: white;
+    margin: 0;
+}
+
+.beef-desc {
+    font-family: 'Roboto', sans-serif;
+    color: #cdc7c7;
+    margin: 0;
+    width: 130%;
+    font-size: 12px;
+}
+
+.dol-41 {
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    color: #c9ab81;
+}
+
+.cont5 {
+    background-image: url(../images/bg-2.jpg);
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.img-play {
+    left: 45%;
+    position: absolute;
+    top: 50%;
+}
+
+.cont6 {
+    background-color: #090d0e;
+    height: auto;
+    overflow: hidden;
+}
+
+.svg-find {
+    display: flex;
+    justify-content: center;
+}
+
+.h-find {
+    font-family: 'Caviar Dreams', arial;
+    color: white;
+    font-size: 24px;
+}
+
+.p-find {
+    color: gray;
+}
+
+.find-d3 {
+    background-color: #c9ab81;
+    color: white;
+}
+
+.opening ul li {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.time {
+    padding-right: 26px;
+    float: right;
+}
+
+.hgt {
+    height: 350px;
+}
+
+.cont-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.appointment {
+    background-color: #0d1213;
+    height: 150px;
+    display: flex;
+}
+
+.svg-appoint {
+    fill: #c9ab81;
+    width: 50px;
+}
+
+.mail-ico {
+    display: flex;
+    padding-left: 55px;
+}
+
+.make-appoint {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mk-apt {
+    color: white;
+    font-size: 36px;
+}
+
+.mk-span {
+    font-family: 'Caviar Dreams', arial;
+    font-size: 36px;
+    color: #c9ab81;
+}
+
+.mkap {
+    font-family: 'Miniver', 'cursive';
+    color: #c9ab81;
+    margin: 0;
+}
+
+.foot-logo {
+    padding: 120px 0px 55px;
+    border-bottom: 1px solid #0e1315;
+}
+
+footer {
+    background-color: black;
+}
+
+.pfood {
+    color: gray;
+}
+
+.ul-li ul li a {
+    color: gray;
+}
+
+.foot-anchor-color,
+.foot-blog-heading {
+    color: #99a6ad;
+}
+
+.foot-blog-para {
+    color: #c9ab81 !important;
+}
